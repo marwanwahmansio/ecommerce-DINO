@@ -5,7 +5,7 @@ use Ecommerce ;
 
 create table categorie (
 	nomCategorie varchar (50),
-	primary key ( nomCategorie )
+	primary key (nomCategorie)
 );
 
 create table client (

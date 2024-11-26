@@ -5,7 +5,6 @@ insert into categorie(nomCategorie) values
 
 insert into client (id,nom,prenom,adresse,naissance,sexe) values
 ("A1","Dubois","matheo","nsm","2012","homme");
-("A2","Dupont","louis","mtl","2007","homme");
 
 insert into panier (idPanier,prix, quantite, typeLivraison,idClient) values
 (1,59, 1, "Standart","A1");
