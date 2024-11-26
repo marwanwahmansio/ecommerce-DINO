@@ -7,50 +7,50 @@ use Illuminate\Http\Request;
 class ClientController extends Controller {
     
     public function connexionClient(){
-        return 'connexionClient';
+        return view ('connexionClient');
     }
 
     public function inscription(){
-        return 'inscription'; 
+        return view ('inscriptionClient'); 
     }
 
     public function seConnecterClient(){
-        return 'seConnecterClient';
+        return view ('seConnecterClient');
     }
 
     public function deconnecterClient(){
-        return 'deconnecterClient';
+        return view ('deconnecterClient');
     }
 
     public function reinitialiserMdp(){
-        return 'reinitialiserMdp';
+        return view ('reinitialiserMdp');
     }
 
     public function ajtPrdouit(){
-        return 'ajtPrdouit';
+        return view ('ajtPrdouitPanier');
     }
 
     public function supProduit(){
-        return 'supProduit';
+        return view ('supProduit');
     }
 
     public function vldPanier(){
-        return 'vldPanier';
+        return view ('validerPanier');
     }
 
     public function vldCommande(){
-        return 'vldCommande';
+        return view ('validerCommande');
     }
 
     public function annulerCmd(){
-        return 'annulerCmd';
+        return view ('annulerCommande');
     }
 
     public function avisProduit(){
-        return 'avisProduit';
+        return view ('avisProduit');
     }
 
     public function supPaiement(){
-        return 'supPaiement';
+        return view ('supPaiement');
     }
 }
