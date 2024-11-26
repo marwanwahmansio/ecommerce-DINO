@@ -77,4 +77,3 @@ create table administrateur (
 	primary key (idAdmin)
 );
 
-
