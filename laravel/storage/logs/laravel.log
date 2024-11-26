@@ -997,3 +997,19 @@
 #51 /var/www/html/ecommerce-DINO/laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
 #52 {main}
 "} 
+[2024-11-26 13:52:28] local.ERROR: There are no commands defined in the "make:" namespace.
+
+Did you mean this?
+    make {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"make:\" namespace.
+
+Did you mean this?
+    make at /var/www/html/ecommerce-DINO/laravel/vendor/symfony/console/Application.php:636)
+[stacktrace]
+#0 /var/www/html/ecommerce-DINO/laravel/vendor/symfony/console/Application.php(685): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /var/www/html/ecommerce-DINO/laravel/vendor/symfony/console/Application.php(258): Symfony\\Component\\Console\\Application->find()
+#2 /var/www/html/ecommerce-DINO/laravel/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#3 /var/www/html/ecommerce-DINO/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#4 /var/www/html/ecommerce-DINO/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1205): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 /var/www/html/ecommerce-DINO/laravel/artisan(13): Illuminate\\Foundation\\Application->handleCommand()
+#6 {main}
+"} 
